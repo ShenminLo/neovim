@@ -14,12 +14,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-  'navarasu/onedark.nvim',
+  'Mofiqul/vscode.nvim',
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'nvim-treesitter/nvim-treesitter',
   {
-    'nvim-telescope/telescope.nvim', 
+    'nvim-telescope/telescope.nvim',
     tag = '0.1.1',
     dependencies = { 'nvim-lua/plenary.nvim' }
   },
